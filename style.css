@@ -1,0 +1,339 @@
+*{
+    font-family: 'Lobster', sans-serif;
+font-family: 'PT Serif', serif;
+margin: 0PX;
+padding: 0px;
+}
+nav{
+    background-color:rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    justify-content: space-evenly;
+    color:antiquewhite;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: 200;
+    font-style: oblique;
+}
+video{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.overlay{
+position: absolute;
+top:50% ;
+left: 50%;
+}
+h1{
+    color: rgb(223, 61, 245);
+    text-shadow: 4px;
+    top: 10%;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before{
+    content: "";
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/033/497/544/small/side-view-of-confident-young-businessman-standing-against-night-cityscape-with-lights-ai-generated-photo.jpg");
+      height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  
+
+
+}
+span{
+    color: rgb(43, 226, 202);
+    font-weight: bolder;
+
+}
+.main{
+    border: 2px inset blue;
+    padding:50px ;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 60%;
+    top:800px;
+    box-shadow: 4px 5px;
+}
+.pic{
+    display: flex;
+}
+.pic img{
+    width: 600px;
+    height: 400px;
+    }
+ h3{
+    color: cadetblue;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 5px 6 px green;
+    margin: 5px;
+ }   
+ .pic p{
+    text-align: justify;
+    margin: 40px;
+ }
+ h4{
+    text-align: center;
+    color: rgb(43, 226, 217);
+ }
+ .gallery{
+    justify-content: space-around;
+    box-shadow: 3px 4px 5px 5px rgb(255, 136, 0);
+
+ }
+ .gallery img{
+    width: 500px;
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+ }
+ .gallery img:hover{
+    box-shadow: 3px 4px 5px 5px red;
+
+ }
+.row{
+    display: flex;
+}
+.box{
+    width: 400px;
+    height: auto;
+    margin: 20px;
+    background: linear-gradient(to top, rgb(255, 123, 0),white 50%);
+    background-size: 100% 200%;
+    transition: 0.6s;
+}
+.box:hover{
+    background-position: right bottom;
+    border: 4px ridge lightcoral;
+    box-shadow: 3px 4px 5px  rgb(241, 94, 94)(255, 60, 0);
+    }
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20%;
+}
+.box h4{
+    color: rgb(0, 255, 255);
+    text-align: center;
+    box-shadow: 3px 4px 5px rgb(236, 178, 130);
+
+}
+.box p{
+    text-align: justify;
+}
+#services h1{
+    margin-top: 5%;
+  text-align: center;  
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: aliceblue;
+    background-color: black;
+}
+.cv{
+    background-color: black;
+    color: beige;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 70%;
+}
+#footer{
+    background-color: aquamarine;
+    height: 40px;
+    width: 100%;
+}
+#footer h1{
+    color: black;
+    text-align: center;
+}
+
+@media all and (max-width:700px) {
+
+    *{
+        font-family: 'Lobster', sans-serif;
+    font-family: 'PT Serif', serif;
+    margin: 0px;
+    padding: 0px;
+    }
+    nav{
+        width: 600px;
+        background-color:rgb(255, 72, 0);
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        position: sticky;
+        top: 0px;
+    
+    }
+    nav ul{
+        display: flex;
+    }
+    nav ul li a{
+        justify-content: space-evenly;
+        color:antiquewhite;
+        text-decoration: none;
+        margin: 10px;
+        font-weight: 200;
+        font-style: oblique;
+    }
+
+    video{
+        width: 600px;
+        height: 600px;
+        object-fit: cover;
+    }
+    #home{
+        display: flex;
+        flex-direction: column;
+        height: 500px;
+        width: 600px;
+    }
+
+    #home::before{
+        content: "";
+        background-image: url("https://static.vecteezy.com/system/resources/thumbnails/033/497/544/small/side-view-of-confident-young-businessman-standing-against-night-cityscape-with-lights-ai-generated-photo.jpg");
+          height: 500px;
+          width:600px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      object-fit: fill;
+      
+    
+    
+    }
+    span{
+        color: rgb(43, 226, 202);
+        font-weight: bolder;
+    
+    }
+    .main{
+        border: 2px inset blue;
+        padding:50px ;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 60%;
+        top:800px;
+        box-shadow: 4px 5px;
+        width: 600px;
+    }
+    .pic{
+        display: flex;
+        width: 600px;
+    }
+    .pic img{
+        width: 600px;
+        height: 400px;
+        }
+     h3{
+        color: cadetblue;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: 4px 5px 6 px green;
+        margin: 5px;
+        width: 600px;
+     }   
+     .pic p{
+        text-align: justify;
+        margin: 40px;
+       width: 600px;
+       height: 100px;
+     }
+     h4{
+        text-align: center;
+        color: rgb(43, 226, 217);
+     }
+     .gallery{
+        justify-content: space-around;
+        box-shadow: 3px 4px 5px 5px rgb(255, 136, 0);
+        width: 600px;
+    
+     }
+     .gallery img{
+        width: 600px;
+        height: 300px;
+        margin: 30px;
+        padding: 10px;
+        margin-bottom: 10px;
+     }
+    
+    .row{
+        display: flex;
+        width: 600px;
+    }
+    .box{
+        width: 600px;
+        height: auto;
+        margin: 20px;
+        background: linear-gradient(to top, rgb(255, 123, 0),white 50%);
+        background-size: 100% 200%;
+        transition: 0.6s;
+    }
+    
+    .box img{
+        width: 600px;
+        height: 200px;
+        border-radius: 20%;
+    }
+
+    .box:hover{
+        background-position: right bottom;
+        border: 4px ridge lightcoral;
+        box-shadow: 3px 4px 5px  rgb(241, 94, 94)(255, 60, 0);
+        }
+   
+    .box h4{
+        color: rgb(0, 255, 255);
+        text-align: center;
+        box-shadow: 3px 4px 5px rgb(236, 178, 130);
+    
+    }
+    .box p{
+        text-align: justify;
+    }
+
+
+
+
+
+    form{
+        width: 600px;
+        margin-left: 500px;
+    
+    }
+    .input{
+        width: 600px;
+        margin: 10px;
+    }
+    
+    #footer{
+        background-color: aquamarine;
+        height: 40px;
+        width: 600px;
+    }
+}
